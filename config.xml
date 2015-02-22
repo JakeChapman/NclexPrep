@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget  id = "com.phonegap.NclexPrep"
+        versionCode = "10"
+        version     = "1.0.0" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Nclex Prep</name>
+
+    <description>
+        This thing like... quizzes you and stuff
+    </description>
+
+    <author email="chapmajb@mail.uc.edu">
+        Jacob Chapman
+    </author>
+
+    <content src="start.html"/>
+    <access origin="*"/>
+    <gap:platform name ="android"/>
+
+    <feature name="http://api.phonegap.com/1.0/camera"/>
+    <feature name="http://api.phonegap.com/1.0/contacts"/>
+    <feature name="http://api.phonegap.com/1.0/file"/>
+    <feature name="http://api.phonegap.com/1.0/geolocation"/>
+    <feature name="http://api.phonegap.com/1.0/media"/>
+    <feature name="http://api.phonegap.com/1.0/network"/>
+    <feature name="http://api.phonegap.com/1.0/notification"/>
+</widget>
