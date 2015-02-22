@@ -15,7 +15,7 @@
         Jacob Chapman
     </author>
 
-    <content src="start.html"/>
+    <content src="index.html"/>
     <access origin="*"/>
     <gap:platform name ="android"/>
 
