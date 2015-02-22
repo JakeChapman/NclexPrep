@@ -6,14 +6,16 @@
     <script type="text/ecmascript" src="QuizScript.js"></script>
     <link rel="stylesheet" type="text/css" href="Styles.css">
 </head>
-<body onload="QuizPageStart()">
+<body onload="QuizPageStart()" class="QuizPage">
 <div class="QuestionZone">
-    <p class = "Question" id="QuestionText"></p>
+    <p class = "Question" id="QuestionText">Some Text</p>
+</div>
+<div class="GuessesZone">
     <ul class="guesses">
-        <li><a href="Styles.css" class="guessText"></a></li>
-        <li><a href="Styles.css" class="guessText"></a></li>
-        <li><a href="Styles.css" class="guessText"></a></li>
-        <li><a href="Styles.css" class="guessText"></a></li>
+        <li><button class="guessText" id="guessButtonOne"></button></li>
+        <li><button class="guessText" id="guessButtonTwo"></button></li>
+        <li><button class="guessText" id="guessButtonThree"></button></li>
+        <li><button class="guessText" id="guessButtonFour"></button></li>
     </ul>
 </div>
 </body>

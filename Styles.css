@@ -20,7 +20,7 @@ button.main
     height: 20%;
     text-align: center;
     position: absolute;
-    top: 50%;
+    top: 0;
     left: 0;
     bottom: 0;
     right: 0;
@@ -30,6 +30,70 @@ button.main
 div.QuestionZone
 {
     text-align: center;
+    vertical-align: middle;
+    text-decoration: black;
+}
+/*div.GuessesZone*/
+/*{*/
+    /*text-align: center;*/
+    /*vertical-align: middle;*/
+    /*text-decoration: black;*/
+    /*background-color: aqua;*/
+/*}*/
+p.Question
+{
+    background-color: #ffffff;
+    text-decoration-color: black;
+    border: solid;
+    border-color: black;
+
+    /*Position components*/
     width: 50%;
-    height: 50%;
+    height: 20%;
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    left: 0;
+    bottom: auto;
+    right: 0;
+    margin: auto;
+}
+
+.GuessesZone ul
+{
+    display: table-row;
+    /*Position components*/
+    width: 50%;
+    height: 20%;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.GuessesZone ul li
+{
+    height: 100px;
+    list-style-type: none;
+    vertical-align: middle;
+    margin: 10px;
+}
+
+.GuessesZone ul li button.guessText
+{
+    display: table-cell;
+    vertical-align: middle;
+    height: auto;
+    border: solid 1px black;
+    width: 50%;
+    height: 40%;
+    width: 50%;
+}
+
+body.QuizPage
+{
+    background-color: darkgray;
 }
